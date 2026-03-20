@@ -6,11 +6,11 @@ const buttonLearnMore = "Más información";
 const advantages = [
   {
     name: "Haz crecer tu negocio",
-    des: "<ul><li>Administra múltiples empresas desde una sola plataforma.</li><li>Visualiza pedidos y rifas en tiempo real.</li><li>Escala fácilmente con soluciones diseñadas para crecer junto a tu negocio.</li>",
+    des: "<ul><li>Administra múltiples empresas desde una sola plataforma.</li><li>Escala fácilmente con soluciones diseñadas para crecer junto a tu negocio.</li>",
   },
   {
     name: "Crea productos",
-    des: "<ul><li>Diseña rifas personalizadas y simultáneas.</li><li>Integra tu sistema con cualquier facturación (actualmente con <strong>CataSuite</strong>).</li><li>Configura procesos adaptados a tus necesidades.</li></ul>",
+    des: "<ul>Integra tu sistema con cualquier facturación (actualmente con <strong>CataSuite</strong>).</li><li>Configura procesos adaptados a tus necesidades.</li></ul>",
   },
   {
     name: "Éxito diario",

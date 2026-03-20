@@ -29,15 +29,14 @@ const totalTeam = "20";
               tecnología de vanguardia con una experiencia de usuario simple y confiable.
             </p>
             <p>
-              Nuestros productos —como <strong>SINVAD</strong>, <strong>QRJ Ventas</strong> y el <strong>Sistema de
-                Rifas</strong>— están diseñados para facilitar el trabajo
+              Nuestros productos —como <strong>SINVAD</strong>, <strong>QRJ Ventas</strong>— están diseñados para facilitar el trabajo
               diario, automatizar procesos clave y ofrecer control total desde cualquier dispositivo. Integramos
               pasarelas de pago como Banco R4, trabajamos con múltiples empresas desde una sola plataforma, y ofrecemos
               compatibilidad con sistemas de facturación como CataSuite.
             </p>
             <p>
               Creemos en soluciones que crecen contigo: escalables, seguras y listas para adaptarse a tus ideas. Ya sea
-              que vendas en campo, organices rifas o administres operaciones complejas, en DSJ Soft te damos las
+              que vendas en campo  o administres operaciones complejas, en DSJ Soft te damos las
               herramientas para lograrlo.
             </p>
           </div>

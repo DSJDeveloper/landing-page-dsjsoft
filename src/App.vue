@@ -2,7 +2,6 @@
 import Header from "./components/Header.vue";
 import Hero from "./components/Hero.vue";
 import Service1 from "./components/Service1.vue";
-// import Service2 from "./components/Service2.vue";
 import Feature from "./components/Feature.vue";
 import Pricing from "./components/Pricing.vue";
 import Advantage from "./components/Advantage.vue";
@@ -11,7 +10,6 @@ import About from "./components/About.vue";
 import Blog from "./components/Blog.vue";
 import Contact from "./components/Contact.vue";
 import Footer from "./components/Footer.vue";
-import Service2 from "./components/Service2.vue";
 import Service3 from "./components/Service3.vue";
 </script>
 
@@ -19,9 +17,9 @@ import Service3 from "./components/Service3.vue";
   <Header />
   <Hero />
   <Service1 />
-  <Service2 />
+  
   <Service3 />
-  <!-- <Service2 /> -->
+  
   <Feature />
   <!-- <Pricing />
   <Pricing /> -->

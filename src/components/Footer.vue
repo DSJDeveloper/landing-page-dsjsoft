@@ -71,7 +71,7 @@ const socialItems = [
             <h3>{{ column2Heading }}</h3>
             <ul class="list-unstyled float-left links">
               <li><a href="#sinvad">SINVAD</a></li>
-              <li><a href="#rifas">Sistema de Rifas</a></li>
+              
               <li><a href="#qrjventas">QRJ Ventas</a></li>
             </ul>
           </div>

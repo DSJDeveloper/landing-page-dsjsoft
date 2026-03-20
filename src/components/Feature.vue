@@ -4,7 +4,7 @@ const items = [
     iconBg: "background-color: #6fe7dd",
     title: "Gestión Financiera Centralizada",
     description:
-      "Sistemas de Facturación y gestión de Rifas robustos, garantizando la trazabilidad, precisión y el cumplimiento normativo.",
+      "Sistemas de Facturación , garantizando la trazabilidad, precisión y el cumplimiento normativo.",
   },
   {
     iconBg: "background-color: #ffc93c",
