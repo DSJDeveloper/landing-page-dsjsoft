@@ -1,15 +1,14 @@
 <script setup>
 import { themeColor, contactInfo } from "../data/items";
 
-const heading = "Get In Touch";
-const subHeading = "Far from the countries Vokalia and Consonantia";
-const contactInfoHeading = "Contact Information";
-const buttonSendMessage = "Send Message";
+const heading = "Ponte en contacto";
+const subHeading = "Hablemos de tu próximo proyecto";
+const contactInfoHeading = "Información de Contacto";
+const buttonSendMessage = "Enviar Mensaje";
 const labels = {
-  firstName: "First Name",
-  lastName: "Last Name",
-  email: "Email Address",
-  message: "Message",
+  firstName: "Nombre completo",
+  email: "Correo Electrónico",
+  message: "¿Cómo te podemos ayudar?",
 };
 </script>
 
@@ -26,16 +25,10 @@ const labels = {
         <div class="col-lg-7">
           <form class="contact-form" data-aos="fade-up" data-aos-delay="100">
             <div class="row">
-              <div class="col-6">
+              <div class="col-12">
                 <div class="form-group">
                   <label class="" for="fname">{{ labels.firstName }}</label>
                   <input type="text" class="form-control" id="fname" />
-                </div>
-              </div>
-              <div class="col-6">
-                <div class="form-group">
-                  <label class="" for="lname">{{ labels.lastName }}</label>
-                  <input type="text" class="form-control" id="lname" />
                 </div>
               </div>
             </div>
@@ -73,17 +66,17 @@ const labels = {
           </address>
           <ul class="list-unstyled ul-links mb-4">
             <li>
-              <a :href="'tel://' + contactInfo.phone1" class="d-flex"
+              <a :href="'https://api.whatsapp.com/send?phone=' + contactInfo.phone1.replace(/\D/g, '')"  target="_blank" class="d-flex"
                 ><span class="mt-1 icon-phone mr-2"></span
                 ><span>{{ contactInfo.phone1 }}</span></a
               >
             </li>
-            <li>
+            <!-- <li>
               <a :href="'tel://' + contactInfo.phone2" class="d-flex"
                 ><span class="mt-1 icon-phone mr-2"></span
                 ><span>{{ contactInfo.phone2 }}</span></a
               >
-            </li>
+            </li> -->
             <li>
               <a :href="'mailto:' + contactInfo.email" class="d-flex"
                 ><span class="mt-1 icon-envelope mr-2"></span

@@ -1,24 +1,24 @@
 <script setup>
 import { themeColor } from "../data/items";
-const heading = "Advantage of using our products";
-const subHeading = "Far from the countries Vokalia and Consonantia";
-const buttonLearnMore = "Learn More";
+const heading = "Ventajas de utilizar nuestros productos";
+const subHeading = "";
+const buttonLearnMore = "Más información";
 const advantages = [
   {
-    name: "Grow Your Business",
-    des: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    name: "Haz crecer tu negocio",
+    des: "<ul><li>Administra múltiples empresas desde una sola plataforma.</li><li>Visualiza pedidos y rifas en tiempo real.</li><li>Escala fácilmente con soluciones diseñadas para crecer junto a tu negocio.</li>",
   },
   {
-    name: "Build Products",
-    des: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    name: "Crea productos",
+    des: "<ul><li>Diseña rifas personalizadas y simultáneas.</li><li>Integra tu sistema con cualquier facturación (actualmente con <strong>CataSuite</strong>).</li><li>Configura procesos adaptados a tus necesidades.</li></ul>",
   },
   {
-    name: "Success Every Day",
-    des: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    name: "Éxito diario",
+    des: " <ul><li>Interfaces simples y rápidas para vendedores y clientes.</li><li>Cobranzas integradas y seguras con confirmación en línea vía <strong>Banco R4</strong>.</li><li>Automatización y transparencia en sorteos y pedidos.</li></ul>",
   },
   {
-    name: "Bring Ideas to Life",
-    des: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    name: "Haz realidad tus ideas",
+    des: "<ul><li>Trabaja sin conexión y sincroniza al recuperar internet.</li><li>Convierte tus procesos en soluciones digitales confiables.</li><li>Soporte especializado adaptado a la realidad de Venezuela y Latinoamérica.</li></ul>",
   },
 ];
 </script>
@@ -53,15 +53,15 @@ const advantages = [
             </div>
             <div class="service-contents">
               <h3>{{ advantages[0].name }}</h3>
-              <p>{{ advantages[0].des }}</p>
-              <p>
+              <p v-html="advantages[0].des"></p>
+              <!-- <p>
                 <a
                   href="#"
                   class="read-more"
                   :style="[{ color: themeColor }]"
                   >{{ buttonLearnMore }}</a
                 >
-              </p>
+              </p> -->
             </div>
           </div>
         </div>
@@ -88,15 +88,15 @@ const advantages = [
             </div>
             <div class="service-contents">
               <h3>{{ advantages[1].name }}</h3>
-              <p>{{ advantages[1].des }}</p>
-              <p>
+              <p v-html="advantages[1].des"></p>
+              <!-- <p>
                 <a
                   href="#"
                   class="read-more"
                   :style="[{ color: themeColor }]"
                   >{{ buttonLearnMore }}</a
                 >
-              </p>
+              </p> -->
             </div>
           </div>
         </div>
@@ -123,15 +123,15 @@ const advantages = [
             </div>
             <div class="service-contents">
               <h3>{{ advantages[2].name }}</h3>
-              <p>{{ advantages[2].des }}</p>
-              <p>
+              <p v-html="advantages[2].des"></p>
+              <!-- <p>
                 <a
                   href="#"
                   class="read-more"
                   :style="[{ color: themeColor }]"
                   >{{ buttonLearnMore }}</a
                 >
-              </p>
+              </p> -->
             </div>
           </div>
         </div>
@@ -154,15 +154,15 @@ const advantages = [
             </div>
             <div class="service-contents">
               <h3>{{ advantages[3].name }}</h3>
-              <p>{{ advantages[3].des }}</p>
-              <p>
+              <p v-html="advantages[3].des"></p>
+              <!-- <p>
                 <a
                   href="#"
                   class="read-more"
                   :style="[{ color: themeColor }]"
                   >{{ buttonLearnMore }}</a
                 >
-              </p>
+              </p> -->
             </div>
           </div>
         </div>

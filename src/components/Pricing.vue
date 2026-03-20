@@ -1,6 +1,6 @@
 <script setup>
 import { themeColor } from "../data/items";
-const heading = "Pricing";
+const heading = "Precios";
 const subHeading = "Pricing for everyone. Choose your plan now!";
 const startButtonName = "Get Started";
 const packages = [

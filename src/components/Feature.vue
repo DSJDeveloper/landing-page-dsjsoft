@@ -2,28 +2,28 @@
 const items = [
   {
     iconBg: "background-color: #6fe7dd",
-    title: "Grow Your Business",
+    title: "Gestión Financiera Centralizada",
     description:
-      "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      "Sistemas de Facturación y gestión de Rifas robustos, garantizando la trazabilidad, precisión y el cumplimiento normativo.",
   },
   {
     iconBg: "background-color: #ffc93c",
-    title: "Build Products",
+    title: "Logística y Conectividad",
     description:
-      "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      "Plataformas avanzadas para la administración de Servicios de Mensajería, optimizando la coordinación y el flujo de información.",
   },
   {
     iconBg: "background-color: #f73859",
-    title: "Success Each Day",
+    title: "Movilidad y Productividad en Campo",
     description:
-      "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      "Aplicaciones Móviles desarrolladas a medida para equipos de Ventas, transformando la ejecución comercial en tiempo real.",
   },
-  {
-    iconBg: "background-color: #407BFF",
-    title: "Bring Ideas to Life",
-    description:
-      "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-  },
+  // {
+  //   iconBg: "background-color: #2F66D0",
+  //   title: "Bring Ideas to Life",
+  //   description:
+  //     "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+  // },
 ];
 </script>
 <template>
@@ -120,7 +120,7 @@ const items = [
             </div>
           </div>
         </div>
-        <div
+        <!-- <div
           class="col-md-6 mb-4 mb-lg-0 col-lg-3"
           data-aos="fade-up"
           data-aos-delay="300"
@@ -146,7 +146,7 @@ const items = [
               <p>{{ items[3].description }}</p>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

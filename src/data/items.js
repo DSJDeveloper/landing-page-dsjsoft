@@ -1,12 +1,12 @@
-const themeColor = '#407BFF'
-const siteName = 'Launch'
+const themeColor = '#2F66D0'
+const siteName = 'DSJ Soft'
 
 const contactInfo = {
-    address: '43 Raymouth Rd. Baltemoer, London 3910',
-    phone1: '+1(123)-456-7890',
-    phone2: '+1(123)-456-7890',
-    email: 'info@mydomain.com',
-    website: 'https://yourwebsite.com/'
+    address: 'Valencia Venezuela',
+    phone1: '+58(422)-133-6877',
+    phone2: '',
+    email: 'info@djsoft.net',
+    website: 'https://dsjsoft.net/'
 }
 
 export { themeColor, siteName, contactInfo }

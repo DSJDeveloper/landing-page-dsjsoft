@@ -1,13 +1,13 @@
 <script setup>
 import { contactInfo } from "../data/items";
-
-const copyrightText = "Copyright 2023, All rights reserved.";
-const column1Heading = "About Launch";
+const currentYear = new Date().getFullYear();
+const copyrightText = "DSJ Soft. Todos los derechos reservados.";
+const column1Heading = "Acerca de DSJ";
 const column1Text =
-  "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.";
-const column2Heading = "Projects";
-const column3Heading = "Services";
-const column4Heading = "Contact";
+  "En DSJ Soft, transformamos ideas en soluciones digitales que impulsan negocios inteligentes. Desarrollamos sistemas robustos, intuitivos y adaptados a la realidad de Venezuela y Latinoamérica, combinando tecnología de vanguardia con una experiencia de usuario simple y confiable.";
+const column2Heading = "Productos";
+const column3Heading = "Servicios";
+const column4Heading = "Contáctanos";
 
 const connectHeading = "Connect";
 
@@ -45,46 +45,34 @@ const socialItems = [
             <h3>{{ column1Heading }}</h3>
             <p>{{ column1Text }}</p>
           </div>
-          <div class="widget">
+          <!-- <div class="widget">
             <h3>{{ connectHeading }}</h3>
             <ul class="list-unstyled social">
               <li style="margin-right: 4px">
-                <a :href="socialItems[0].link"
-                  ><span :class="socialItems[0].icon"></span
-                ></a>
+                <a :href="socialItems[0].link"><span :class="socialItems[0].icon"></span></a>
               </li>
               <li style="margin-right: 4px">
-                <a :href="socialItems[1].link"
-                  ><span :class="socialItems[1].icon"></span
-                ></a>
+                <a :href="socialItems[1].link"><span :class="socialItems[1].icon"></span></a>
               </li>
               <li style="margin-right: 4px">
-                <a :href="socialItems[2].link"
-                  ><span :class="socialItems[2].icon"></span
-                ></a>
+                <a :href="socialItems[2].link"><span :class="socialItems[2].icon"></span></a>
               </li>
               <li style="margin-right: 4px">
-                <a :href="socialItems[3].link"
-                  ><span :class="socialItems[3].icon"></span
-                ></a>
+                <a :href="socialItems[3].link"><span :class="socialItems[3].icon"></span></a>
               </li>
               <li>
-                <a :href="socialItems[4].link"
-                  ><span :class="socialItems[4].icon"></span
-                ></a>
+                <a :href="socialItems[4].link"><span :class="socialItems[4].icon"></span></a>
               </li>
             </ul>
-          </div>
+          </div> -->
         </div>
         <div class="col-lg-2 ml-auto">
           <div class="widget">
             <h3>{{ column2Heading }}</h3>
             <ul class="list-unstyled float-left links">
-              <li><a href="#">La Lega Stadium</a></li>
-              <li><a href="#">France Building</a></li>
-              <li><a href="#">22 New Homes</a></li>
-              <li><a href="#">Manage Center</a></li>
-              <li><a href="#">Sports Hall</a></li>
+              <li><a href="#sinvad">SINVAD</a></li>
+              <li><a href="#rifas">Sistema de Rifas</a></li>
+              <li><a href="#qrjventas">QRJ Ventas</a></li>
             </ul>
           </div>
         </div>
@@ -92,10 +80,10 @@ const socialItems = [
           <div class="widget">
             <h3>{{ column3Heading }}</h3>
             <ul class="list-unstyled float-left links">
-              <li><a href="#">Architect</a></li>
-              <li><a href="#">Interior Design</a></li>
-              <li><a href="#">Landscape Design</a></li>
-              <li><a href="#">Consultancy</a></li>
+              <li><a href="#">Desarrollo de sistemas</a></li>
+              <li><a href="#">Integración de plataformas</a></li>
+              <li><a href="#">Aplicaciones móviles</a></li>
+              <li><a href="#">Consultoría</a></li>
             </ul>
           </div>
         </div>
@@ -105,19 +93,17 @@ const socialItems = [
             <address>{{ contactInfo.address }}</address>
             <ul class="list-unstyled links mb-4">
               <li>
-                <a :href="'tel://' + contactInfo.phone1">{{
-                  contactInfo.phone1
-                }}</a>
+                <a :href="'https://api.whatsapp.com/send?phone=' + contactInfo.phone1.replace(/\D/g, '')"
+                  target="_blank" class="d-flex"><span class="mt-1 icon-phone mr-2"></span><span>{{ contactInfo.phone1
+                  }}</span></a>
               </li>
-              <li>
+              <!-- <li>
                 <a :href="'tel://' + contactInfo.phone2">{{
                   contactInfo.phone2
                 }}</a>
-              </li>
+              </li> -->
               <li>
-                <a :href="'mailto:' + contactInfo.email"
-                  ><span>{{ contactInfo.email }}</span></a
-                >
+                <a :href="'mailto:' + contactInfo.email"><span>{{ contactInfo.email }}</span></a>
               </li>
             </ul>
           </div>
@@ -126,7 +112,7 @@ const socialItems = [
       <div class="row mt-5">
         <div class="col-12 text-center">
           <p>
-            {{ copyrightText }}
+           {{ currentYear }} {{ copyrightText }} 
           </p>
         </div>
       </div>
